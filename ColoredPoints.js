@@ -111,9 +111,6 @@ function addActionsForHtmlUI(){
     g_shapesList.push(drawing); // Add the drawing to the list of shapes
     renderAllShapes(); }
 
-  document.getElementById('starButton').addEventListener('click', function() {
-      requestAnimationFrame(animateStar);
-  });
 
 
   document.getElementById('redSlide').addEventListener('mouseup',function() {g_selectedColor[0] = this.value/100; });
